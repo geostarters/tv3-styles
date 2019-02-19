@@ -1,0 +1,33 @@
+{
+    "backgrounds": [ 
+         {
+        "name": "Clar",
+        "styleid": 0,
+        "style": "https://tv3-styles.github.io/styles/positron.json",
+        "icon": "https://tv3-styles.github.io/img/positron.png"
+    },
+    {
+        "name": "Orto",
+        "styleid": 1,
+        "style": "https://tv3-styles.github.io/styles/hibrid.json",
+        "icon": "https://tv3-styles.github.io/img/orto.png"
+    },
+    {
+        "name": "Fosc",
+        "styleid": 2,
+        "style": "https://tv3-styles.github.io/styles/water.json",
+        "icon": "https://tv3-styles.github.io/img/fulldark.png"
+    },
+    {
+        "name": "Terreny",
+        "styleid": 3,
+        "style": "https://tv3-styles.github.io/styles/terrain.json",
+        "icon": "https://tv3-styles.github.io/img/terrain.png"
+    }
+        
+
+
+    ]
+
+
+}
