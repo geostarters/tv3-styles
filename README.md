@@ -19,6 +19,10 @@ git clone https://github.com/geostarters/tv3-styles.git
 #### Pas 3
 
 > Editar estil  
+
+> Video exemple: https://www.youtube.com/watch?v=XoDh0gEnBQo  
+> Tutorial: https://github.com/maputnik/editor/wiki/Design-a-Map-Style  
+
 > Truc: Click en el mapa sobre el que es vol editar
 
 
