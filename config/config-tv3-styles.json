@@ -3,29 +3,28 @@
          {
         "name": "Clar",
         "styleid": 0,
-        "style": "https://geostarters.github.io/tv3-styles/styles/positron.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/positron.png"
+        "style": "https://geostarters.github.io/tv3-styles/styles/clar.json",
+        "icon": "https://geostarters.github.io/tv3-styles/img/clar.png"
     },
     {
         "name": "Orto",
         "styleid": 1,
-        "style": "https://geostarters.github.io/tv3-styles/styles/hibrid.json",
+        "style": "https://geostarters.github.io/tv3-styles/styles/orto.json",
         "icon": "https://geostarters.github.io/tv3-styles/img/orto.png"
     },
     {
         "name": "Fosc",
         "styleid": 2,
-        "style": "https://geostarters.github.io/tv3-styles/styles/water.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/fulldark.png"
+        "style": "https://geostarters.github.io/tv3-styles/styles/fosc.json",
+        "icon": "https://geostarters.github.io/tv3-styles/img/fosc.png"
     },
     {
         "name": "Terreny",
         "styleid": 3,
-        "style": "https://geostarters.github.io/tv3-styles/styles/terrain.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/terrain.png"
+        "style": "https://geostarters.github.io/tv3-styles/styles/terreny.json",
+        "icon": "https://geostarters.github.io/tv3-styles/img/terreny.png"
     }
         
-
 
     ]
 

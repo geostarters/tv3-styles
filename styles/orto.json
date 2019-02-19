@@ -43,6 +43,7 @@
         "https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/orto/GRID3857/{z}/{x}/{y}.jpeg"
       ],
       "tileSize": 256,
+	  "bounds": [3.3360 , 40.4700 , 0.1087 , 42.8840],
       "minzoom": 13.1,
       "maxzoom": 20
     },

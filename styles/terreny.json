@@ -1,6 +1,6 @@
 {
     "version": 8,
-    "name": "orto",
+    "name": "terreny",
     "center": [
         1.84021,
         41.72623
@@ -24,6 +24,7 @@
                 "https://tilemaps.icgc.cat/tileserver/tileserver.php/mapboxTerrain/{z}/{x}/{y}.png"
             ],
             "tileSize": 256,
+			"bounds": [3.3360 , 40.4700 , 0.1087 , 42.8840],
             "maxzoom": 16
         },
         
