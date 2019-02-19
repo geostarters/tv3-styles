@@ -40,7 +40,6 @@ git clone https://github.com/geostarters/tv3-styles.git
 git add .
 git commit -m "add style"
 git push
-
 ```
 
 ### Per veure canvis
