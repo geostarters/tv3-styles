@@ -3,38 +3,38 @@ Vector styles for TV3
 
 ## Per editar un estil
 
-#### Pas 1
+### Pas 1
 ```
 git clone https://github.com/geostarters/tv3-styles.git
 ```
-#### Pas 2
+### Pas 2
 
-> Anar a https://maputnik.github.io/editor/#7.15/41.769/1.491
-
-
-> Maputnik Menú  
-> Open --> Upload Style --> Upload--> Anar directori  /styles --> Seleccionar un estil
++ #### Anar a https://maputnik.github.io/editor/#7.15/41.769/1.491
 
 
-#### Pas 3
-
-> Editar estil  
-
-> Video exemple: https://www.youtube.com/watch?v=XoDh0gEnBQo  
-> Tutorial: https://github.com/maputnik/editor/wiki/Design-a-Map-Style  
-
-> Truc: Click en el mapa sobre el que es vol editar
++ #### Maputnik Menú  
+   - Open --> Upload Style --> Upload--> Anar directori  /styles --> Seleccionar un estil
 
 
-#### Pas 4
+### Pas 3
 
-> Maputnik Menú  
-> Export --> Download--> **Sobreescriure l'estil editat amb el mateix nom**
++ #### Editar estil  
+
+   - Video exemple: https://www.youtube.com/watch?v=XoDh0gEnBQo  
+   - Tutorial: https://github.com/maputnik/editor/wiki/Design-a-Map-Style  
+
+   - Truc: Click en el mapa sobre el que es vol editar
 
 
-#### Pas 5 
+### Pas 4
 
-> Pujar estil editat (només usuari GitHub autoritzat)
+  + #### Maputnik Menú  
+   - Export --> Download--> **Sobreescriure l'estil editat amb el MATEIX NOM**
+
+
+### Pas 5 
+
+ + #### Pujar estil editat (només usuari GitHub autoritzat)
 
 ```
 git add .
