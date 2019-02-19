@@ -104,7 +104,7 @@
         mapboxgl.accessToken = '';
         map = new mapboxgl.Map({
             container: 'map',
-            style: 'https://tv3-styles.github.io/styles/positron.json',
+            style: 'https://geostarters.github.io/tv3-styles/styles/positron.json',
             center: [2.16859, 41.3954],
             zoom: 13,
             maxZoom: 14,
@@ -134,7 +134,7 @@
         function switchLayer(layer) {
             var layerId = layer.target.id;
 
-            map.setStyle('https://tv3-styles.github.io/styles/' + layerId + '.json');
+            map.setStyle('https://geostarters.github.io/tv3-styles/styles/' + layerId + '.json');
 
         }
 
