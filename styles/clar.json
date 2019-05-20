@@ -43,10 +43,16 @@
       "type": "vector",
       "url": "https://geoserveis.icgc.cat/contextmaps/basemap.json"
     },
-    "linies": {
+    "comarquesGeojson": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/geostarters/dades/master/linies%20limit%2010%2001%202019.geojson"
+      "data": "https://raw.githubusercontent.com/geostarters/dades/master/Comarques_Catalunya_EPSG4326_2019_simplificat.geojson"
     },
+
+    "municipisGeojson": {
+      "type": "geojson",
+      "data": "https://raw.githubusercontent.com/geostarters/dades/master/Municipis_Catalunya_EPSG4326_2019_simplificat.geojson"
+    },
+
     "caps": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/geostarters/dades/master/caps%20municipi%2001%2001%202019.geojson"
@@ -1918,21 +1924,14 @@
       }
     },
     {
-      "id": "linies municipals",
+      "id": "liniesMunicipals",
       "type": "line",
-      "source": "linies",
-      "minzoom": 10,
+      "source": "municipisGeojson",
+      "minzoom": 8,
       "maxzoom": 11,
-      "filter": [
-        "any",
-        [
-          "==",
-          "tipusua",
-          "M"
-        ]
-      ],
+      
       "layout": {
-        "visibility": "none"
+        "visibility": "visible"
       },
       "paint": {
         "line-color": "rgba(255, 255, 255, 1)",
@@ -1963,34 +1962,12 @@
       }
     },
     {
-      "id": "linies comarcals",
+      "id": "liniesComarcals",
       "type": "line",
-      "source": "linies",
+      "source": "comarquesGeojson",
       "minzoom": 6,
       "maxzoom": 11,
-      "filter": [
-        "any",
-        [
-          "==",
-          "tipusua",
-          "C"
-        ],
-        [
-          "==",
-          "tipusua",
-          "A"
-        ],
-        [
-          "==",
-          "tipusua",
-          "E"
-        ],
-        [
-          "==",
-          "lincosta",
-          "S"
-        ]
-      ],
+      
       "layout": {
         "visibility": "visible"
       },
@@ -1998,7 +1975,7 @@
         "line-color": {
           "stops": [
             [
-              2,
+              6,
               "rgba(255, 255, 255, 0.25)"
             ],
             [
