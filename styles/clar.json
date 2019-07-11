@@ -47,12 +47,10 @@
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/geostarters/dades/master/Comarques_Catalunya_EPSG4326_2019_simplificat.geojson"
     },
-
     "municipisGeojson": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/geostarters/dades/master/Municipis_Catalunya_EPSG4326_2019_simplificat.geojson"
     },
-
     "caps": {
       "type": "geojson",
       "data": "https://raw.githubusercontent.com/geostarters/dades/master/caps%20municipi%2001%2001%202019.geojson"
@@ -149,11 +147,15 @@
         "fill-opacity": {
           "stops": [
             [
-              5,
-              0
+              1,
+              1
             ],
             [
-              16,
+              5,
+              0.5
+            ],
+            [
+              7,
               0
             ]
           ]
@@ -1929,7 +1931,6 @@
       "source": "municipisGeojson",
       "minzoom": 8,
       "maxzoom": 11,
-      
       "layout": {
         "visibility": "visible"
       },
@@ -1967,7 +1968,6 @@
       "source": "comarquesGeojson",
       "minzoom": 6,
       "maxzoom": 11,
-      
       "layout": {
         "visibility": "visible"
       },
@@ -2026,7 +2026,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "boundary",
-      "minzoom": 6,
+      "minzoom": 1,
       "maxzoom": 14,
       "filter": [
         "==",
@@ -2061,7 +2061,7 @@
         "line-opacity": {
           "stops": [
             [
-              6,
+              4,
               0
             ],
             [
@@ -2084,7 +2084,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "boundary",
-      "minzoom": 5,
+      "minzoom": 1,
       "maxzoom": 16,
       "filter": [
         "all",
@@ -2142,7 +2142,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "boundary",
-      "minzoom": 5,
+      "minzoom": 1,
       "maxzoom": 18,
       "filter": [
         "all",
@@ -2182,7 +2182,7 @@
           "stops": [
             [
               6,
-              0
+              1
             ],
             [
               7,
@@ -2506,7 +2506,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "place",
-      "minzoom": 7,
+      "minzoom": 6,
       "maxzoom": 12,
       "filter": [
         "all",
@@ -2587,7 +2587,7 @@
       },
       "source": "openmaptiles",
       "source-layer": "place",
-      "minzoom": 7,
+      "minzoom": 4,
       "maxzoom": 12,
       "filter": [
         "all",
