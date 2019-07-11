@@ -57,7 +57,7 @@
     }
   },
   "sprite": "https://geoserveis.icgc.cat/contextmaps/sprites/sprite@1",
-  "glyphs": "https://geoserveis.icgc.cat/contextmaps/glyphs/{fontstack}/{range}.pbf",
+ "glyphs": "https://free.tilehosting.com/fonts/{fontstack}/{range}.pbf?key=QLOqi8gs14T1s1yjnRMO",
   "layers": [
     {
       "id": "background",
