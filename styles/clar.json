@@ -45,15 +45,15 @@
     },
     "comarquesGeojson": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/geostarters/tv3-styles/master/data/Comarques_Catalunya_EPSG4326_2019_simplificat.geojson"
+      "data": "https://geostarters.github.io/tv3-styles/data/Comarques_Catalunya_EPSG4326_2019_simplificat.geojson"
     },
     "municipisGeojson": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/geostarters/tv3-styles/master/data/Municipis_Catalunya_EPSG4326_2019_simplificat.geojson"
+      "data": "https://geostarters.github.io/tv3-styles/data/Municipis_Catalunya_EPSG4326_2019_simplificat.geojson"
     },
     "caps": {
       "type": "geojson",
-      "data": "https://raw.githubusercontent.com/geostarters/tv3-styles/master/data/caps_municipi_01_01_2019.geojson"
+      "data": "https://geostarters.github.io/tv3-styles/data/caps_municipi_01_01_2019.geojson"
     }
   },
   "sprite": "https://geoserveis.icgc.cat/contextmaps/sprites/sprite@1",
