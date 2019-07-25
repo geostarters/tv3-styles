@@ -43,13 +43,12 @@
       "type": "vector",
       "url": "https://geoserveis.icgc.cat/contextmaps/basemap.json"
     },
-    "comarquesGeojson": {
-      "type": "geojson",
-      "data": "https://geostarters.github.io/tv3-styles/data/Comarques_Catalunya_EPSG4326_2019_simplificat.geojson"
-    },
-    "municipisGeojson": {
-      "type": "geojson",
-      "data": "https://geostarters.github.io/tv3-styles/data/Municipis_Catalunya_EPSG4326_2019_simplificat.geojson"
+    "limitsICGC": {
+      "type": "vector",
+      "tiles": [
+        "https://tilemaps.icgc.cat/tileserver/tileserver.php/limits2019-4-12/{z}/{x}/{y}.pbf"
+      ],
+      "maxzoom": 12
     },
     "caps": {
       "type": "geojson",
@@ -2035,7 +2034,8 @@
     {
       "id": "liniesMunicipals",
       "type": "line",
-      "source": "municipisGeojson",
+      "source": "limitsICGC",
+      "source-layer":"Municipis",
       "minzoom": 8,
       "maxzoom": 11,
       "layout": {
@@ -2072,7 +2072,8 @@
     {
       "id": "liniesComarcals",
       "type": "line",
-      "source": "comarquesGeojson",
+      "source": "limitsICGC",
+      "source-layer":"Comarques",
       "minzoom": 6,
       "maxzoom": 11,
       "layout": {
