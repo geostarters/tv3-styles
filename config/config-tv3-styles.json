@@ -3,26 +3,26 @@
          {
         "name": "Clar",
         "styleid": 0,
-        "style": "https://geostarters.github.io/tv3-styles/styles/clar.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/clar.png"
+        "style": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/styles/clar.json",
+        "icon": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/img/clar.png"
     },
     {
         "name": "Orto",
         "styleid": 1,
-        "style": "https://geostarters.github.io/tv3-styles/styles/orto.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/orto.png"
+        "style": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/styles/orto.json",
+        "icon": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/img/orto.png"
     },
     {
         "name": "Fosc",
         "styleid": 2,
-        "style": "https://geostarters.github.io/tv3-styles/styles/fosc.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/fosc.png"
+        "style": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/styles/fosc.json",
+        "icon": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/img/fosc.png"
     },
     {
         "name": "Terreny",
         "styleid": 3,
-        "style": "https://geostarters.github.io/tv3-styles/styles/terreny.json",
-        "icon": "https://geostarters.github.io/tv3-styles/img/terreny.png"
+        "style": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/styles/terreny.json",
+        "icon": "https://tilemaps.icgc.cat/tileserver/styles/tv3-styles/img/terreny.png"
     }
         
 
